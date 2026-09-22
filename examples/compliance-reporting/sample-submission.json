@@ -1,0 +1,36 @@
+{
+  "submissionId": "sub_demo_001",
+  "facilityId": "facility_demo_100",
+  "reportingPeriod": {
+    "startDate": "2026-07-01",
+    "endDate": "2026-09-30"
+  },
+  "reportType": "quarterly_environmental_compliance",
+  "status": "draft",
+  "sections": [
+    {
+      "sectionId": "monitoring_summary",
+      "title": "Monitoring Summary",
+      "completionStatus": "complete"
+    },
+    {
+      "sectionId": "exceedance_review",
+      "title": "Exceedance Review",
+      "completionStatus": "pending_review"
+    },
+    {
+      "sectionId": "corrective_actions",
+      "title": "Corrective Actions",
+      "completionStatus": "not_started"
+    }
+  ],
+  "evidenceRecords": [
+    {
+      "evidenceRecordId": "ev_demo_001",
+      "type": "lab_report",
+      "description": "Fictional quarterly lab report reference for demo purposes."
+    }
+  ],
+  "preparedBy": "demo.compliance.manager@example.org",
+  "reviewRequired": true
+}
