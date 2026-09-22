@@ -1,0 +1,36 @@
+{
+  "monitoringStationId": "station_demo_001",
+  "facilityId": "facility_demo_100",
+  "sampleDateTime": "2026-09-22T10:30:00Z",
+  "sampleType": "grab_sample",
+  "location": {
+    "latitude": 39.2904,
+    "longitude": -76.6122,
+    "coordinateSystem": "WGS84"
+  },
+  "results": [
+    {
+      "parameter": "pH",
+      "value": 7.2,
+      "unit": "standard_units",
+      "method": "field_meter",
+      "validationStatus": "field_verified"
+    },
+    {
+      "parameter": "turbidity",
+      "value": 2.4,
+      "unit": "NTU",
+      "method": "portable_turbidimeter",
+      "validationStatus": "field_verified"
+    },
+    {
+      "parameter": "dissolved_oxygen",
+      "value": 8.1,
+      "unit": "mg/L",
+      "method": "field_probe",
+      "validationStatus": "field_verified"
+    }
+  ],
+  "submittedBy": "demo.field.operator@example.org",
+  "notes": "Demo payload using fictional data only."
+}
